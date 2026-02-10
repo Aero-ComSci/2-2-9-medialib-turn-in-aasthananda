@@ -64,13 +64,10 @@ public class Book
 
     public boolean equals(Book b)
     {
-        if (this.title.equals(b.title) && this.author.equals(b.author))
-        {
-            return true;
-        }
-        else
-        {
+        if (b == null){
             return false;
         }
+        return (this.title.equals(b.title) && this.author.equals(b.author));
+        }
     }
-}
+
