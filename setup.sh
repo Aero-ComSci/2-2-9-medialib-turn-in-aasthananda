@@ -12,6 +12,9 @@ fi
 if [ -f BookTest.java ]; then mv BookTest.java src/test/java/ 
 fi
 
+if [ -f LastModified.java ]; then mv LastModified.java src/test/java/ 
+fi
+
 if [ -f Song.java ]; then mv Song.java src/main/java/
 fi
 
